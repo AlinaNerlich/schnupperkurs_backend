@@ -1,10 +1,18 @@
+*{
+    font-size:12px;
+}
+
 a{
     text-decoration:underline;
+}
+p{
+    margin-bottom:2px;
 }
 
 /* ---------ÜBERSICHT DATEN ------ */
 .container{
     background-color:#f2f0eb;
+    padding:30px;
 }
 h2{
     padding-left: 20px;
@@ -15,19 +23,23 @@ h2{
 .right{
     text-align:right;
     padding-right:30px;
-    padding-top:0;
+    padding-bottom:10px;
 }
-/* Ich bekomme weder den text vertikal zentriert noch die daten-box geschmälert*/
 #daten{
     background-color:#ffffff;
     margin: -5px 20px;
-    padding:20px;
+    padding:15px;
+}
+.pfett{
+    font-weight:600;
 }
 .orange{
     color:#ff6600;
     margin-bottom:0px;
     font-weight:700;
+    font-size:16px;
 }
+
 /* ---------STATUS UND TIPPS ------ */
 .header_boxen{
     margin: 20px 20px 0px 20px;
@@ -37,46 +49,53 @@ h4{
     text-align:left;
     padding:0;
     font-weight:700;
+    margin-top:20px;
+    margin-bottom:15px;
 }
 
-}
 /* ---------STATUS BOX------ */
-#infos{
-    display:flex;
+.boxen{
+    background-color:white;
+    width:46%;
+    margin: 0 20px;
+    float:left;
+    padding: 20px;
 }
-
-#status{
-    background-color:#ffffff;
-    margin:0 35px;
-    padding:0px;
-}
-.status_1{
-    margin: 20px;
-}
-
-.status_2{
-    margin: 20px;
+.clearfix{
+    clear:both;
 }
 #warning{
-    padding:15px;
-    margin:20px;
-    background-color:#ff8080
+    background-color:#f58e9e;
+    display:center;
+    padding:10px;
+    margin-bottom: 10px;
+    border-radius:3px;
+}
+#a_black{
+    color:black;
 }
 .info{
-    color:#ff6600;
-    text-decoration:none;
+    color: #ff6600;
+    text-decoration: none;
 }
-
-/* ---------TIPPS BOX------ */
-.col2{
-    height:250px;
-    background-color:#ff6600;
+.extra{
+    width: 50%;
+    float:left;
+    margin-bottom:10px;
 }
-.card-horizontal {
-    display: flex;
-    flex: 1 1 auto;
+.inner{
+    padding:5px;
 }
-img {
-    height:50px;
-    width: 100px;
+img{
+    width:20px;
+    height:20px;
+    float:left;
+    margin-right:5px;
+}
+.platzhalter{
+    height:75px;
+    width:100px;
+}
+h5{
+    font-weight:600;
 }
